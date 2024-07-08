@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Images/CUB4-Top-10-reasons-why-Chitkara-University-is-the-best-University-in-North-India.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  height: 10px;
+  background-color: red;
+}
+.element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid;
+  background-color: white;
+}
+.element span {
+  margin: 20px;
+}
