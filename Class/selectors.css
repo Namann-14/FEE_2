@@ -1,0 +1,35 @@
+/* universal selector */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* attribute selector  */
+
+input[type="text"] {
+  background-color: red;
+}
+input[type="password"] {
+  background-color: blue;
+}
+[type="email"] {
+  background-color: pink;
+}
+
+[placeholder="email domain"] {
+  color: blue;
+}
+
+/* element selector  */
+p {
+  background-color: pink;
+}
+
+/* class selector  */
+.a1 {
+  font-weight: 800;
+}
+
+/* id selector   */
+#fruits {
+  background-color: lightgreen;
+}

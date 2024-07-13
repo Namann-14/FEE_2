@@ -1,25 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#redline {
+  background-color: #ed3237;
+  padding: 3px;
+}
 body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(Images/CUB4-Top-10-reasons-why-Chitkara-University-is-the-best-University-in-North-India.jpg);
+  background-image: url("Images/Chitkara_University_pic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
-header {
-  height: 10px;
-  background-color: red;
+.icon {
+  float: right;
+  margin-right: 1px;
 }
-.element {
+.form {
+  background-color: #ffffff;
+  display: inline-block;
+  width: 285px;
+  height: 550px;
+  padding-top: 0px;
+  border: 2px solid #cccccc;
+  margin-left: 925px;
+  margin-top: 88px;
+}
+.image {
+  margin-top: 20px;
+  margin-left: 43px;
+  margin-bottom: 15px;
+}
+input[type="text"] {
+  border: 1px solid #7f9db9;
+  height: 22px;
+  width: 220px;
+}
+input[type="password"] {
+  border: 1px solid #7f9db9;
+  height: 22px;
+  width: 220px;
+}
+#session {
+  border: 1px solid #7f9db9;
+  height: 22px;
+  width: 220px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.username_label {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.username_input {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.password_label {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.password_input {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.session_label {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.remember_pass {
+  font-size: 12px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.submit {
+  margin-left: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.forgot_pass {
+  margin-top: -5px;
+}
+.forgot_pass a:link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 12px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin-left: 22px;
+  margin-top: -2px;
+}
+.privacy_policy {
+  margin-top: 13px;
+}
+.privacy_policy a:link {
+  font-size: 12px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #2e5b87;
+  margin-left: 22px;
+}
+.app_logos {
+  margin-top: 10px;
+  margin-left: 70px;
+}
+.apple {
+  display: inline-block;
+}
+.playstore {
+  display: inline-block;
+  margin-left: 30px;
+}
+.mobile_app_code {
+  font-weight: bolder;
+  font-size: 12px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+  margin-top: 2px;
+}
+.codebrigade {
+  margin-left: 22px;
+  margin-top: 10px;
+}
+.powered {
+  display: inline-block;
+  font-size: 14px;
+  font-family: Verdana, Arial, Arial, Helvetica, sans-serif;
+  color: #545454;
+}
+.codebrigade_logo {
+  display: inline-block;
+  margin-left: 10px;
+}
+button {
+  height: 20px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  border: 2px solid;
-  background-color: white;
-}
-.element span {
-  margin: 20px;
+  padding: 15px 30px;
+  margin: 5px 25%;
+  background-color: #ed3237;
+  color: white;
+  border: none;
+  font-size: large;
 }
