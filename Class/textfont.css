@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.a1 {
+  text-align: center;
+}
+h1 {
+  text-align: inherit;
+  /* text-align: end;
+    text-align: left;
+    text-align: right; */
+}
+p {
+  text-align: justify;
+}
+
+/* text decoration */
+a {
+  font-size: 40px;
+  text-decoration: line-through;
+  text-decoration-style: dashed;
+  text-decoration-color: green;
+}
+h3 {
+  text-shadow: 10px 8px 5px green;
+  color: transparent;
+}
