@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Varela Round", sans-serif;
+}
+body {
+  min-height: 100vh;
+  /* background-color: lightgreen; */
+  /* background-image: url(Images/baby.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+header {
+  position: sticky;
+  top: 0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.196);
+  z-index: 999;
+}
+.nav-top {
+  background-color: #a5c926;
+}
+#topWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#topWrapper ul {
+  display: flex;
+  list-style: none;
+}
+#topWrapper li {
+  height: 32px;
+}
+#topWrapper a {
+  padding: 0px 5px;
+  font-size: 11px;
+  color: white;
+  height: 32px;
+  text-decoration: none;
+}
+#topWrapper a i {
+  font-size: 16px;
+
+  /* what is this behavior:  */
+  padding-top: 8px;
+}
+.nav-main {
+  background-color: white;
+}
+#navBar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#navBar div {
+  font-size: 22px;
+}
+#navBar ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+#navBar li {
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+#navBar a {
+  height: 100%;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 0px 3px;
+}
+.container-hero {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Images/baby.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box {
+  height: 40%;
+  width: 30%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 2px 40px;
+  border-radius: 16px;
+}
+.box h5 {
+  color: #a5c926;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.box h1 {
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+}
+.box button {
+  background-color: #a5c926;
+  padding: 15px 28px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: bolder;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.box button:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+  box-shadow: 0px 2px 5px #a6c926b9;
+}
+.container {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+}
+.row {
+  display: flex;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+.stuffedanimals {
+  background-color: #ffc12c;
+  color: black;
+  height: 200px;
+  width: 600px;
+  margin-left: 70px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  text-align: justify;
+}
+#an {
+  margin-top: -80px;
+}
+.woddentoys {
+  background-color: #fb416b;
+  color: black;
+  height: 200px;
+  width: 600px;
+  display: flex;
+  margin-left: 60px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+p {
+  font-size: 20px;
+  display: inline;
+}
+#StuffedAnimals {
+  height: 500px;
+}
+#main {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+
+.three {
+  border: 1px transparent;
+  background-color: white;
+  height: 270px;
+  width: 250px;
+  border-radius: 25px;
+  border: 2px solid rgb(223, 220, 220);
+  padding: 20px;
+  margin-left: 15px;
+  transition: transform 0.5s ease;
+  transition-delay: 1ms;
+}
+.three:hover {
+  transform: scale(1.1);
+}
+#four {
+  padding-left: 50px;
+}
+#five {
+  margin-left: 50px;
+  background-color: #a5c926;
+  color: white;
+  border-radius: 25px;
+  border: 1px white;
+}
+#shop {
+  height: 40px;
+  width: 150px;
+  margin-top: 80px;
+  margin-right: 200px;
+  border-radius: 15px;
+}
+
+#m {
+  font-size: 19px;
+  color: #a5c926;
+}
+#wr {
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+  font-size: 28px;
+}
+#t {
+  color: grey;
+}
+#getitnow {
+  background-color: #a5c926;
+  height: 50px;
+  width: 130px;
+  color: white;
+  border: 1px white;
+  border-radius: 25px;
+}
+#subs {
+  height: 150px;
+  width: 1000px;
+  margin-left: 100px;
+  background-color: rgb(248, 247, 247);
+  border-radius: 20px;
+  display: flex;
+}
+#tele {
+  background-color: #a5c926;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#subscribe {
+  padding-left: 10px;
+}
+#email {
+  height: 50px;
+  width: 300px;
+  padding-left: 20px;
+  border-radius: 20px;
+  border: 2px solid #a5c926;
+  margin-left: 30px;
+  margin-top: 20px;
+  height: 35px;
+}
+#subsc {
+  background-color: #a5c926;
+  color: white;
+  height: 35px;
+  width: 150px;
+  border-radius: 20px;
+  border: 1px white;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#StuffedAnimals h3 {
+  margin-left: 20px;
+  font-size: 28px;
+}
+
+#images {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+}
+#b {
+  border-radius: 20px;
+}
+#Seemorephotos {
+  background-color: #a5c926;
+  height: 50px;
+  width: 130px;
+  color: white;
+  border: 1px white;
+  border-radius: 25px;
+}
+footer {
+  background-color: #a0c838;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer-nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav li {
+  margin: 0 15px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
