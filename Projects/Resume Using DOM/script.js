@@ -65,13 +65,10 @@ const skill2 = document.createElement('li');
 skill2.textContent = 'React';
 const skill3 = document.createElement('li');
 skill3.textContent = 'HTML & CSS';
-const skill4 = document.createElement('li');
-skill4.textContent = 'Node.js';
 
 skillsList.appendChild(skill1);
 skillsList.appendChild(skill2);
 skillsList.appendChild(skill3);
-skillsList.appendChild(skill4);
 skillsSection.appendChild(skillsList);
 
 main.appendChild(header);
