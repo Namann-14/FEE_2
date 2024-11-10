@@ -1,0 +1,90 @@
+/* Styling for Smart Bill Helper */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #e9eef7;
+    color: #333;
+}
+
+header, footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+header h1 {
+    color: #0056d2;
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.calculator-body {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+h2 {
+    color: #444;
+    margin-bottom: 1em;
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0056d2;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #003b92;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 1.05em;
+    line-height: 1.4;
+    color: #333;
+}

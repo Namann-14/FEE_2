@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Bill Helper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Smart Bill Helper</h1>
+        <p>Quickly calculate your bill with tax, tips, and any discounts!</p>
+    </header>
+
+    <main class="calculator">
+        <section class="calculator-body">
+            <h2>Bill Calculation</h2>
+            
+            <div class="form-group">
+                <label for="item-cost">Item Cost ($):</label>
+                <input type="number" id="item-cost" placeholder="Enter cost" required>
+            </div>
+
+            <div class="form-group">
+                <label for="tax-rate">Tax Rate (%)</label>
+                <input type="number" id="tax-rate" placeholder="Enter tax rate" required>
+            </div>
+
+            <div class="form-group">
+                <label for="tip-percentage">Tip (%)</label>
+                <input type="number" id="tip-percentage" placeholder="Enter tip percentage" required>
+            </div>
+
+            <div class="form-group">
+                <label for="discount">Discount ($):</label>
+                <input type="number" id="discount" placeholder="Optional discount">
+            </div>
+
+            <button id="calculate-button">Calculate Total</button>
+
+            <div id="result">
+                <p id="tax-amount"></p>
+                <p id="tip-amount"></p>
+                <p id="discount-amount"></p>
+                <p id="total-amount"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designed for easy and quick calculations</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
